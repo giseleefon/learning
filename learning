@@ -1,0 +1,23 @@
+public class exercise00 {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+        byte b = 10;
+        int i = b;
+        short s = (byte)i;
+
+        int i1 = 200;
+        int i2 = 3;
+        System.out.println(i1 /i2);
+
+        double d = 3.0;
+        System.out.println(i1 / i2);
+
+        int a = 10;
+        a = a + 1;
+        a++;
+        a += 5;
+        System.out.println(a);
+
+
+    }
+}
